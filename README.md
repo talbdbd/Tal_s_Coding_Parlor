@@ -28,7 +28,7 @@ Take a look at the main page!
 
 ## Credits
 
-No other collaborators were involved. Built from the ground, up.
+JOSH COMEAU'S CSS RESET (used for reset.css) (https://www.joshwcomeau.com/css/custom-css-reset/)
 
 ## License
 
