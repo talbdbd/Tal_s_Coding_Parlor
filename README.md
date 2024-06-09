@@ -40,7 +40,7 @@ This project has no active licenses.
 
 ## Features
 
-This project is a simple, static front page website.
+The page has a navigation bar with links to the page's content. Every project is represented with a clickable image which will navigate you to the project. You can also use the contact me to email the provided address.
 
 ## How to Contribute
 

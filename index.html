@@ -12,36 +12,62 @@
 
 <body>
     <header>
-        <h1>Tal's Coding Parlor</h1>
-        <h2>Step into my parlor!</h2>
+        <div class="profile-picture">
+            <img src="./assets/images/portrait.png" alt="Tal BenDavid">
+        </div>
+        <div class="profile-header">
+            <h1>Tal's Coding Parlor</h1>
+            <h2>Step into my parlor!</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <a href="https://talbdbd.github.io/Tal_s_Coding_Parlor/" class="About Me">About Me</a>
-        <a href="https://talbdbd.github.io/Tal_s_Coding_Parlor/" class="Work">Work</a>
-        <a href="https://talbdbd.github.io/Tal_s_Coding_Parlor/" class="Contact">Contact</a>
-        <a href="https://talbdbd.github.io/Tal_s_Coding_Parlor/" class="Resume">Resume</a>
-    </nav>
+
     <main>
-        <div class="About Me"></div>
-        <img src="./assets/images/portrait.png" alt="Tal BenDavid">
-        <div class="Work"></div>
-        <h3>Bootcamp Project 1: Catzzeria!</h3>
-        <img src="./assets/images/Cattzeria!.png" alt="Catzzeria Game">
-        <p>
-            <a href="https://alfwall.github.io/catzzeria/">https://alfwall.github.io/catzzeria/</a>
-        </p>
-        <h3>Bootcamp Project 2: Reading Roundtable</h3>
-        <img src="./assets/images/roundtable.jpeg" alt="Reading Roundtable">
-        <p>
-            <a href="https://reading-roundtable-a1d1097f86e5.herokuapp.com/login">https://reading-roundtable-a1d1097f86e5.herokuapp.com/login</a>
-        </p>
-        <div class="Contact Me"></div>
-        <div class="Resume"></div>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello and welcome to the parlor! I'm excited to share my projects with you!
+                <br>I currently growing as a web develoer and I'm always looking forward to my next project.
+                <br>
+                <br>Please feel free to reach out to with any inquiries!</p>
+        </section>
+
+        <section id="work">
+            <h2>My Work</h2>
+            <div class="projects">
+                <a href="https://alfwall.github.io/catzzeria/" class="project large" target="_blank">
+                    <img src="./assets/images/Cattzeria!.png" alt="Catzzeria Game">
+                </a>
+                <h3>Bootcamp Project 1: Catzzeria!</h3>
+                <a href="https://reading-roundtable-a1d1097f86e5.herokuapp.com/login" class="project" target="_blank">
+                    <img src="./assets/images/roundtable.jpeg" alt="Reading Roundtable">
+                </a>
+                <h3>Bootcamp Project 2: Reading Roundtable</h3>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:bendavid.bd.tal@gmail.com">bendavid.bd.tal@gmail.com</a></p>
+        </section>
+
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>Download my <a href="./assets/resume/Tal_BenDavid_Resume.pdf" target="_blank">resume</a>.</p>
+        </section>
     </main>
 
-    <footer class="Production">
-        <h3>Coded with Tal-Tools [Parlor under construction 🚧]</h3>
+    <footer>
+        <p>&copy; 2024 Tal BenDavid | Coded with Tal-Tools [Parlor under construction 🚧]</p>
     </footer>
+
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
