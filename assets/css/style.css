@@ -1,0 +1,88 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000; /* black background */
+    color: #fff; /* White text color for better contrast */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set minimum height of the body to full viewport height */
+}
+
+main {
+    flex-grow: 1; /* Allow main content to grow and push footer to bottom */
+}
+
+header {
+    background-color: #c0c0c0cf;
+    color: #000000;
+    padding: 15px; /* Reduce padding to reduce thickness of navbar */
+    display: flex;
+    justify-content: space-between; /* Space between profile and nav */
+    align-items: center;
+}
+
+.profile-picture img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.profile-header {
+    text-align: center; /* Center align text */
+    flex: 1; /* Allow it to take up available space */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row; /* Keep nav items in a row */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+#work .projects {
+    display: flex;
+    flex-direction: column; /* Stack projects vertically */
+    align-items: center;
+}
+
+.project {
+    margin: 20px 0; /* Add vertical margin between projects */
+    text-align: center;
+}
+
+.project img {
+    width: 150%; /* Increase image size by 50% */
+    height: auto;
+    max-width: 450px; /* Increase maximum width to match new size */
+    transition: transform 0.3s ease;
+    border-radius: 20px; /* Adjust the value as needed */
+}
+
+.project.large img {
+    transform: scale(1.05); /* Slightly larger scale */
+}
+
+footer {
+    background-color: #d8a600;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto; /* Push footer to the bottom */
+}
